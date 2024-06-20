@@ -69,7 +69,7 @@ class _CartscreenState extends State<Cartscreen> {
                       fit: BoxFit.cover,
                       image: NetworkImage(product['img'] ?? ""),
                     ),
-                    color: Colors.red,
+                    color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
                   ),
                 ),
