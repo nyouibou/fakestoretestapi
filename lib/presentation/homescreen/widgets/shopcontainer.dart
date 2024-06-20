@@ -16,7 +16,7 @@ class ShopContainer extends StatelessWidget {
   final String title;
   final String rating;
 
-  final String price;
+  final dynamic price;
   final String category;
 
   @override
