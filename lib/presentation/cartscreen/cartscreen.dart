@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:fakestoretestapi/core/constants/textscon.dart';
 import 'package:fakestoretestapi/presentation/homescreen/controller/homescreencontroller.dart';
 import 'package:fakestoretestapi/presentation/homescreen/view/homescreen.dart';
@@ -20,7 +22,7 @@ class _CartscreenState extends State<Cartscreen> {
       double total = 0.0;
       for (var i = 0; i < homescreenProvider.myBox.length; i++) {
         var product = homescreenProvider.myBox.getAt(i);
-        print('Product price: ${product['price']}');
+        // print('Product price: ${product['price']}');
         String priceString = product['price'].toString().replaceAll('\$', '');
         double? price = double.tryParse(priceString);
         if (price != null) {
